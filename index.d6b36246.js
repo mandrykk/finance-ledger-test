@@ -1,0 +1,2 @@
+!function(){window.addEventListener("scroll",(function(){window.scrollY>t?e.classList.add("fixed"):e.classList.remove("fixed")}));var e=document.querySelector(".header__wrapper"),t=e.offsetTop;var c=document.querySelector("#email"),o=document.querySelector("#callback-btn"),r=document.querySelector(".form-message");o.addEventListener("click",(function(e){""===c.value?(e.preventDefault(),r.style.opacity=1):r.style.opacity=0}))}();
+//# sourceMappingURL=index.d6b36246.js.map

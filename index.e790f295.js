@@ -1,0 +1,2 @@
+window.addEventListener("scroll",(function(){window.scrollY>t?e.classList.add("fixed"):e.classList.remove("fixed")}));const e=document.querySelector(".header__wrapper"),t=e.offsetTop;const c=document.querySelector("#email"),o=document.querySelector("#callback-btn"),l=document.querySelector(".form-message");o.addEventListener("click",(function(e){""===c.value?(e.preventDefault(),l.style.opacity=1):l.style.opacity=0}));
+//# sourceMappingURL=index.e790f295.js.map
