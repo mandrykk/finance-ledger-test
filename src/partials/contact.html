@@ -1,0 +1,39 @@
+<section class="contact" id="contact">
+    <div class="contact__wrapper">
+        <div class="contact__image-wrap">
+        <picture class="contact__img">
+             <source srcset="images/home/contact.webp 1x, images/home/contact@2x.webp 2x" type="image/webp" />
+             <source srcset="images/home/contact.jpg 1x, images/home/contact@2x.jpg 2x" type="image/jpeg" />
+             <img src="images/home/contact.jpg" alt="working man" />
+        </picture>
+        </div>
+    <div class="contact__container">
+        <h2 class="contact__title">Request Callback</h2>
+
+        <form>
+            <div class="form__inputs-wrapp">
+                <input type="text" name="name" id="callback-name" class="contact__form-input" placeholder="Enter your name" />
+                <label for="callback-name" ></label>
+            </div>
+
+            <div class="form__inputs-wrapp">
+                <input type="email" name="email" id="email" class="contact__form-input" placeholder="Enter email*" />
+                <label for="callback-email" ></label>
+                
+                <div class="form-message">
+                    <svg class="form-icon" width="15" height="15">
+                        <use href="./images/form/worning.svg"></use>
+                    </svg>
+                    <p class="form-warning">This is a required field</p>
+                </div>
+                
+            </div>
+        
+            <button type="submit" class="contact__button" id="callback-btn">
+                Send
+            </button>
+        </form>
+
+    </div>
+    </div>
+</section>
